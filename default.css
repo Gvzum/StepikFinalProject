@@ -1,0 +1,114 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* ============ Container ==============*/
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 7px;
+}
+
+
+
+/*=========== Card =============*/
+
+
+.card {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.card-image {
+    margin-bottom: 16px;
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1D1D1D;
+
+    margin-bottom: 4px;
+}
+
+.card-price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #626262;
+}
+
+.card-time {
+    font-size: 13px;
+    line-height: 21px;
+
+    font-family: 'Robato', sans-serif;
+    color: #1D1D1D;
+}
+
+
+
+/*Horizontal*/
+
+.hor {
+    width: 956px;
+    height: 1px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+
+    margin-bottom: 40px;
+}
+
+
+/*=========Arrow ===========*/
+
+
+.arrow {
+    position: fixed;
+    right: 16px;
+    bottom: 24px;
+
+    width: 80px;
+    height: 80px;
+
+    background-color: #59BD5A;;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
